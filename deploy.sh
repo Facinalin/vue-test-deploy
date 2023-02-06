@@ -16,7 +16,7 @@ echo > .nojekyll
 # echo 'www.example.com' > CNAME
 
 git init
-git checkout -B main
+git checkout -B master
 git add -A
 git commit -m 'deploy'
 
@@ -25,7 +25,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://facinalin.github.io/vue-deployment-sample
 
-git push -f git@github.com:facinalin/vue-deployment-sample.git main:gh-pages
+git push -f git@github.com:facinalin/vue-deployment-sample.git master:gh-pages
 
 #test comment
 
